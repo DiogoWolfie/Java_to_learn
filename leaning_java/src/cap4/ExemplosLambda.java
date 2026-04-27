@@ -35,6 +35,7 @@ public class ExemplosLambda {
         Supplier<String> saudacao = () -> "olá, mundo";
 
         // Usando tudo junto:
+        //Stream é uma sequencia de elementos que podem ser processados de forma encadeade e declarativa
         nomes.stream()
         .filter(nomeGrande) // filtra nomes com mais de 4 letras
         .map(emMaiusculo) // transforma para maiúsculas
